@@ -1,1 +1,11 @@
 .idea/
+*/migrations/
+__pycahce__/
+*/__pycache__/
+*.sqlite3
+
+front-end//dist/
+front-end/node_modules/
+*/package-lock.json
+
+static/

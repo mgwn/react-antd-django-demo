@@ -1,0 +1,37 @@
+{
+  "name": "myblog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "NODE_ENV=development webpack -p webpack-dev-server --host 0.0.0.0 --port 3000 --hot",
+    "build": "webpack -p --display-optimization-bailout --progress --colors"
+  },
+  "author": "Ming Wan",
+  "license": "MIT",
+  "dependencies": {
+    "antd": "^3.6.6",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-router": "^3.2.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-import": "^1.8.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "html-webpack-plugin": "^3.2.0",
+    "less": "^3.7.1",
+    "less-loader": "^4.1.0",
+    "raw-loader": "^0.5.1",
+    "style-loader": "^0.21.0",
+    "url-loader": "^1.0.1",
+    "webpack": "^3.12.0",
+    "webpack-dev-server": "^2.7.1"
+  }
+}
