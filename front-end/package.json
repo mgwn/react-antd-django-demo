@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "NODE_ENV=development webpack -p webpack-dev-server --host 0.0.0.0 --port 3000 --hot",
+    "start": "NODE_ENV=development webpack -p && webpack-dev-server --host 0.0.0.0 --port 3000 --hot",
     "build": "webpack -p --display-optimization-bailout --progress --colors"
   },
   "author": "Ming Wan",
